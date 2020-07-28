@@ -88,7 +88,7 @@
  */
 
 // Show the Marlin bootscreen on startup. ** ENABLE FOR PRODUCTION **
-#define SHOW_BOOTSCREEN
+//#define SHOW_BOOTSCREEN
 
 // Show the bitmap in Marlin/_Bootscreen.h on startup.
 //#define SHOW_CUSTOM_BOOTSCREEN
@@ -134,7 +134,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Kremowka.exe"
+#define CUSTOM_MACHINE_NAME "AM8"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like http://www.uuidgenerator.net/version4
@@ -1202,10 +1202,10 @@
 //#define Z_MAX_POS 250
 
 // ANET A6, X0/Y0 0 front left bed edge :
-#define X_BED_SIZE 222
-#define Y_BED_SIZE 222
-#define X_MIN_POS -3
-#define Y_MIN_POS -5
+#define X_BED_SIZE 220
+#define Y_BED_SIZE 220
+#define X_MIN_POS -11
+#define Y_MIN_POS -11
 #define Z_MIN_POS 0
 #define Z_MAX_POS 230
 
